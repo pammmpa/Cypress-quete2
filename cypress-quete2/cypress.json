@@ -1,4 +1,11 @@
 {
-    "projectId": "9opce3"
+    "projectId": "9opce3",
+    "reporter": "mochawesome",
+"reporterOptions": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true
+    }
 }
 
